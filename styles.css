@@ -260,7 +260,7 @@ a.pure-button-primary {
 
 .splash-container {
   /* background: #1f8dd6; */
-  background: url(/assets/images/IMG_3459.png);
+  background: url(docs/assets/images/IMG_3459.png);
   z-index: 1;
   overflow: hidden;
   /* The following styles are required for the "scroll-over" effect */
