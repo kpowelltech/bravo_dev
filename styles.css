@@ -119,10 +119,17 @@ label {
    }
 
 .window-selection {
+  margin-top: 10px;
   font-size: 18px;
   width: 100%;
   /* margin-left: 10%; */
   /* font-size: small; */
+}
+
+.message-area {
+  font-size: small;
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .window-selection_checkboxes {
@@ -135,7 +142,6 @@ label {
 }
 
 .my-window-selection {
-  display: flex;
   flex-direction: column;
   /* align-items: center; */
   width: 100%;
