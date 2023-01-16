@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Website for Bravo Window Cleaning company."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure-min.css"
+      integrity="sha384-X38yfunGUhNzHpBaEBsWLO+A0HDYOQi8ufWDkZ0k9e0eXz/tH3II7uKZ9msv++Ls"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive-min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous"> -->
+
+    <title>Bravo Window Cleaning</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="">Bravo</a>
+
+        <ul class="pure-menu-list">
+          <li class="pure-menu-item pure-menu-selected">
+            <a href="#" class="pure-menu-link">Home</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">Services</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">About</a>
+          </li>
+          <li class="pure-menu-item">
+            <a href="#" class="pure-menu-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="splash-container">
+      <div class="splash">
+        <h1 class="splash-head">
+          <img
+            width="550"
+            alt="Bravo Window Cleaning"
+            class="pure-img-responsive"
+            src="/assets/logos/bravo_logos/Bravo logo.png"
+          />
+          <p class="splash-subhead">
+            “You take care of your family and business. <br /><br />I’ll take
+            care of your windows!”
+          </p>
+        </h1>
+      </div>
+    </div>
+
+    <div class="content-wrapper">
+      <!-- https://codepen.io/ccallen001/pen/bEYByd -->
+
+      <!-- <section class="row">
+        <div class="nine columns">
+          <div class="coverflow top10 bot10">
+            <a class="prev-arrow"></a>
+            <a href=""
+              ><img src="/assets/images/IMG_3459.png" class="coverflow__image"
+            /></a>
+            <a href=""
+              ><img src="/assets/images/IMG_8015.png" class="coverflow__image"
+            /></a>
+            <a href=""
+              ><img src="/assets/images/IMG_8015.png" class="coverflow__image"
+            /></a>
+            <a href=""
+              ><img src="/assets/images/IMG_8015.png" class="coverflow__image"
+            /></a>
+            <a href=""
+              ><img src="/assets/images/IMG_3459.png" class="coverflow__image"
+            /></a>
+            <a class="next-arrow"></a>
+          </div>
+        </div>
+      </section> -->
+
+      <!-- https://codepen.io/danedmonds/pen/gMEYwr -->
+      <section class="carousel-autoscroller">
+        <section>
+          <!-- <button class="btn">Pause</button> -->
+          <!-- Add Box shadowing under images -->
+          <article>
+            <div>
+              <ul>
+                <li><img src="/assets/images/IMG_3459.png" /></li>
+                <li><img src="/assets/images/IMG_8015.png" /></li>
+                <li><img src="/assets/images/IMG_3459.png" /></li>
+                <li><img src="/assets/images/IMG_8015.png" /></li>
+              </ul>
+            </div>
+            <div>
+              <ul>
+                <li><img src="/assets/images/IMG_3459.png" /></li>
+                <li><img src="/assets/images/IMG_8015.png" /></li>
+                <li><img src="/assets/images/IMG_3459.png" /></li>
+                <li><img src="/assets/images/IMG_8015.png" /></li>
+              </ul>
+            </div>
+          </article>
+        </section>
+      </section>
+
+      <!-- Window Count Section -->
+
+      <div class="content">
+        <section class="window-count">
+          <img
+            src="/assets/images/window_count.png"
+            alt="Window Count section"
+          />
+        </section>
+      </div>
+
+      <!-- Questionaire and Form Section -->
+
+      <h2 class="content-head is-center">Contact and Questionaire</h2>
+      <div class="my-form">
+        <form action="">
+          <section class="my-form_sections">
+            <div class="form-input">
+              <label for="fname">First Name</label>
+              <input id="name" type="text" placeholder="First Name" />
+  
+              <label for="lname">Last Name</label>
+              <input id="name" type="text" placeholder="Last Name" />
+  
+              <label for="email">Your Email</label>
+              <input id="email" type="email" placeholder="Your Email" />
+  
+              <label for="phone">Phone</label>
+              <input id="name" type="text" placeholder="Phone" />
+            </div>
+            <div class="my-window-selection">
+              <label for="typeOfWindow">Type of Window(s)</label>
+              <div class="my-window-selection_checkboxes">
+                <input
+                  class="radio"
+                  type="checkbox"
+                  name="windowType"
+                  value="singlePane"
+                  required
+                />
+                Option 1
+                <input
+                  class="radio"
+                  type="checkbox"
+                  name="windowType"
+                  value="doublePane"
+                />
+                Option 2
+                <input
+                  class="radio"
+                  type="checkbox"
+                  name="windowType"
+                  value="doublePane"
+                />
+                Option 3
+                <input
+                  class="radio"
+                  type="checkbox"
+                  name="windowType"
+                  value="doublePane"
+                />
+                Option 4
+                <input
+                  class="radio"
+                  type="checkbox"
+                  name="windowType"
+                  value="doublePane"
+                />
+                Option 5
+              </div>
+            </div>
+          </section>
+         
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+
+      <div class="content">
+        <h2 class="content-head is-center">Contact and Questionaire</h2>
+
+        <div class="form">
+          <div class="form-section">
+            <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+              <form class="pure-form pure-form-stacked">
+                <fieldset class="myfieldset">
+                  <label for="fname">First Name</label>
+                  <input id="name" type="text" placeholder="First Name" />
+
+                  <label for="lname">Last Name</label>
+                  <input id="name" type="text" placeholder="Last Name" />
+
+                  <label for="email">Your Email</label>
+                  <input id="email" type="email" placeholder="Your Email" />
+
+                  <label for="phone">Phone</label>
+                  <input id="name" type="text" placeholder="First Name" />
+                  <button type="submit" class="pure-button">Sign Up</button>
+                </fieldset>
+                <div class="window-selection">
+                  <label for="typeOfWindow">Type of Window(s)</label>
+                  <div class="window-selection_checkboxes">
+                    <input
+                      class="radio"
+                      type="checkbox"
+                      name="windowType"
+                      value="singlePane"
+                      required
+                    />
+                    Option 1
+                    <input
+                      class="radio"
+                      type="checkbox"
+                      name="windowType"
+                      value="doublePane"
+                    />
+                    Option 2
+                    <input
+                      class="radio"
+                      type="checkbox"
+                      name="windowType"
+                      value="doublePane"
+                    />
+                    Option 3
+                    <input
+                      class="radio"
+                      type="checkbox"
+                      name="windowType"
+                      value="doublePane"
+                    />
+                    Option 4
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <h2 class="content-head is-center">Contact and Questionaire</h2>
+
+        <div class="pure-g">
+          <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
+            <form class="pure-form pure-form-stacked">
+              <fieldset>
+                <label for="fname">First Name</label>
+                <input id="name" type="text" placeholder="First Name" />
+
+                <label for="lname">Last Name</label>
+                <input id="name" type="text" placeholder="Last Name" />
+
+                <label for="email">Your Email</label>
+                <input id="email" type="email" placeholder="Your Email" />
+
+                <label for="phone">Phone</label>
+                <input id="name" type="text" placeholder="First Name" />
+
+                <div class="window-selection">
+                  <label for="typeOfWindow">Type of Window(s)</label>
+                  <div class="window-selection_checkboxes">
+                    <input
+                      class="radio"
+                      type="checkbox"
+                      name="windowType"
+                      value="singlePane"
+                      required
+                    />
+                    Option 1
+                    <input
+                      class="radio"
+                      type="checkbox"
+                      name="windowType"
+                      value="doublePane"
+                    />
+                    Option 2
+                    <input
+                      class="radio"
+                      type="checkbox"
+                      name="windowType"
+                      value="doublePane"
+                    />
+                    Option 3
+                    <input
+                      class="radio"
+                      type="checkbox"
+                      name="windowType"
+                      value="doublePane"
+                    />
+                    Option 4
+                    <input
+                      class="radio"
+                      type="checkbox"
+                      name="windowType"
+                      value="doublePane"
+                    />
+                    Option 5
+                  </div>
+                </div>
+
+                <button type="submit" class="pure-button">Sign Up</button>
+              </fieldset>
+            </form>
+          </div>
+
+          <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
+            <h4>Contact Us</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+
+            <h4>More Information</h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <h2 class="content-head is-center">
+          your golden ticket to beautiful windows
+        </h2>
+
+        <div class="pure-g">
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <h3 class="content-subhead">
+              <i class="fa fa-rocket"></i>
+              WHY?
+            </h3>
+            <p>
+              We specializing in window cleaning. As the last line of defense to
+              your home care needs. We believe we are the nishing touch that
+              sparkles your home. We feel at Bravo Window Cleaning that time is
+              our most valuable asset. So don’t waste it by doing your windows
+              yourself and let us free your time to do what you love.
+            </p>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <h3 class="content-subhead">
+              <i class="fa fa-mobile"></i>
+              WHAT
+            </h3>
+            <p>
+              We provide a “set and forget” subscription window cleaning
+              service. First service provides interior and exterior glass
+              cleaning including screens, frames, tracks and sills. Half yearly
+              and quarterly service is exterior only including screens, frames
+              and sills. One time window cleaning: Exterior or interior and
+              exterior includes frames and sills. Does not include tracks and
+              screens. All comercial cleanups and hardwater removal are one time
+              window cleaning price X2.
+            </p>
+          </div>
+          <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+            <div class="icon-header">
+              <span class="material-symbols-sharp">map</span>
+              <h3 class="content-subhead">
+                WHERE
+              </h3>
+            </div>
+            
+            <p>Los Angeles County.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="ribbon l-box-lrg pure-g">
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
+          <img
+            width="300"
+            alt="Bravo icon"
+            class="pure-img-responsive"
+            src="/assets/logos/bravo_logos/Bravo logo.png"
+          />
+        </div>
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+          <h2 class="content-head content-head-ribbon">
+            Laboris nisi ut aliquip.
+          </h2>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor.
+          </p>
+        </div>
+      </div>
+
+      <div class="footer l-box is-center">
+        Bravo Window Cleaning Copyright 2023
+      </div>
+    </div>
+
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script> -->
+    <script src="scripts.js"></script>
+  </body>
+</html>
