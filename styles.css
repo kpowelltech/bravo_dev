@@ -18,6 +18,11 @@ FONT SIZE SYSTEM (px)
   box-sizing: border-box;
 }
 
+/* .main-app {
+  width: 800px;
+  margin: auto;
+ } */
+
 /*
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
@@ -116,7 +121,8 @@ label {
 .window-selection {
   font-size: 18px;
   width: 100%;
-  margin-left: 10%;
+  /* margin-left: 10%; */
+  /* font-size: small; */
 }
 
 .window-selection_checkboxes {
@@ -125,6 +131,7 @@ label {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  font-size: small
 }
 
 .my-window-selection {
@@ -257,6 +264,7 @@ a.pure-button-primary {
  * -- SPLASH STYLES --
  * This is the blue top section that appears on the page.
  */
+
 
 .splash-container {
   /* background: #1f8dd6; */
